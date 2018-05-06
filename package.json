@@ -1,0 +1,27 @@
+{
+  "name": "react-materialize-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-materialize": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.1.0",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-cli": "^2.0.1"
+  }
+}
